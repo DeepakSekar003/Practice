@@ -9,8 +9,8 @@ export default function HomePage() {
     <div className="bg-[#052038] min-h-screen text-white">
       <Navbar />
 
-      <section className="pt-12 2xl:pt-14 px-8 2xl:px-23">
-        <h1 className="text-3xl 2xl:text-4xl inline-block font-bold ml-10 tracking-wider leading-relaxed">
+      <section className="pt-12 2xl:pt-20 px-8 2xl:px-23">
+        <h1 className="text-3xl 2xl:text-5xl inline-block font-bold ml-10 2xl:ml-6 tracking-wider leading-relaxed">
           Thousands of trucks at <br /> your fingertips...
         </h1>
 
@@ -18,17 +18,17 @@ export default function HomePage() {
           <RadioBox />
         </div>
 
-        <div className="ml-26 mt-6">
+        <div className="ml-26 mt-6 2xl:mt-15">
           <InputBox placeholder="Enter Pickup Location" /><br />
           <InputBox placeholder="Enter Drop Location" /><br />
 
           <SearchButton label="Search" />
         </div>
 
-        <div className="ml-130 2xl:ml-140 -mt-100 2xl:-mt-120">
+        <div className="ml-130 2xl:ml-160 -mt-100 2xl:-mt-140">
           <img src={main}
             alt="Main"
-            className="h-100 2xl:h-120 w-200 2xl:w-220 rounded-sm  object-cover" />
+            className="h-100 2xl:h-140 w-200 2xl:w-250 rounded-sm  object-cover" />
         </div>
 
       </section>

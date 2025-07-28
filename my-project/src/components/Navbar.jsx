@@ -13,7 +13,7 @@ export default function Navbar() {
         <a href="#" className="text-white font-semibold hover:bg-white hover:text-[#052038] px-4 2xl:px-5 py-2 2xl:py-3 rounded">Home</a>
       </nav>
 
-      <nav className="flex ml-auto space-x-6 2xl:space-x-8">
+      <nav className="flex 2xl:text-2xl ml-auto space-x-6 2xl:space-x-8">
         <a href="#" className="text-white font-semibold hover:bg-white hover:text-[#052038] px-4 2xl:px-5 py-2 2xl:py-3 rounded">Login</a>
         <a href="#" className="text-white font-semibold hover:bg-white hover:text-[#052038] px-4 2xl:px-5 py-2 2xl:py-3 rounded">Sign-up</a>
       </nav>
