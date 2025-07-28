@@ -14,7 +14,7 @@ export default function HomePage() {
           Thousands of trucks at <br /> your fingertips...
         </h1>
 
-        <div className="mt-6 ml-26 2xl:text-2xl">
+        <div className="mt-6 ml-26 2xl:mt-15 2xl:text-2xl">
           <RadioBox />
         </div>
 
